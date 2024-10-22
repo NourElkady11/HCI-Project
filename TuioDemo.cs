@@ -247,7 +247,6 @@ public class TuioDemo : Form, TuioListener
             }
         }
 
-
         // draw the objects
         if (objectList.Count > 0)
         {
