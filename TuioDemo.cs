@@ -272,6 +272,7 @@ public class TuioDemo : Form, TuioListener
                     g.DrawString(tobj.SymbolID + "", font, fntBrush, new PointF(ox - 10, oy - 10));
                     switch (tobj.SymbolID)
                     {
+
                         case 0:
                             objectImagePath = Path.Combine(Environment.CurrentDirectory, "Glove-pos/RGaurd.png");
                             backgroundImagePath = Path.Combine(Environment.CurrentDirectory, "Boxing.jpeg");
